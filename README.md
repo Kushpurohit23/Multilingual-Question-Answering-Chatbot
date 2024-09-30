@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Overview
+### Webiste link : [https://multilingual-chatbot.vercel.app/](https://multilingual-chatbot.vercel.app/)
+• Developed a multilingual extractive question-answering chatbot using Google’s BERT base multilingual cased model, fine-tuned with the SQuAD dataset.
 
-## Getting Started
+• Key feature: Capable of understanding and processing over 100 languages, allowing the question and context to be in different languages while responding in the language of the context.
 
-First, run the development server:
+• Achieved a training loss of 0.6015 after 2 epochs, with potential for further reduction given additional resources.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Usage
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is the welcome window when the website loads. You can enter the context in the text box at the bottom. 
+![image](https://github.com/user-attachments/assets/aec4f20b-aaed-4e9f-8e15-74d52d96067c)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Once you get the confirmation message, you can start asking questions based on that context. 
+![image](https://github.com/user-attachments/assets/1534e86a-6163-4117-93fd-f069799158e2)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can ask multiple questions in different languages, the bot will answer back in the context language. 
+![image](https://github.com/user-attachments/assets/5fdc0a34-d5c4-4a11-a561-7a292bf93d94)
